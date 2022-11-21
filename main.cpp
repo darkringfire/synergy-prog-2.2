@@ -1,4 +1,4 @@
-#include <iostream>
+#include <cstdio>
 
 int main() {
     int a, b;
@@ -8,7 +8,7 @@ int main() {
     scanf("%i", &b);
 
     if (a > b) {
-        printf("More");
+        printf("more");
     } else if (a < b) {
         printf("less");
     } else {
