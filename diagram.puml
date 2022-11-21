@@ -1,0 +1,14 @@
+@startuml
+start
+:Read a and b variables;
+if (a > b) is (yes) then
+  :Print "more";
+else (no)
+  if (a < b) is (yes) then
+    :Print "less";
+  else (no)
+    :Print "equal";
+  endif;
+endif;
+stop
+@enduml
